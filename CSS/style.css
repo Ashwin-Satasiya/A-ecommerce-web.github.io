@@ -1,0 +1,63 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar-nav .nav-item {
+    margin-right: 20px;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.navbar-nav .nav-link:hover{
+    color: yellow;
+}
+
+/* Modal */
+
+.modal {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.modal a{
+text-decoration: none;
+}
+
+/* Media Query */
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+
+    #header .account-create{
+        margin-top: 25px;
+    }
+
+    .modal{
+        margin-top: 100px;
+        margin-left: 0;
+        padding: 15px;
+    }
+
+#clients img{
+    width: 100%;
+    padding: 20px;
+}
+    
+#product .col-md-2{    
+width: 50%;
+margin: auto;
+box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .0) !important;        
+}
+
+#product address{
+    margin-top: 30px;   
+}
+
+}
