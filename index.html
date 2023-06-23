@@ -51,7 +51,7 @@
           <div class="col-md-3 d-flex account-create">
             <button
               type="button"
-              class="btn btn-outline-secondary bg-dark text-white"
+              class="btn bg-dark text-white"
               data-bs-toggle="modal"
               data-bs-target="#OpenModal"
             >
@@ -73,14 +73,14 @@
 
     <!-- Navbar start -->
 
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark p-2">
+    <nav class="navbar navbar-expand-md p-2">
       <div class="container-fluid">
         <!-- Logo -->
         <a class="navbar-brand" href="#"
           ><img
             class="rounded-pill"
-            src="/Images/Logo.png"
-            style="width: 85px"
+            src="/Images/Logo.jpg"
+            style="width: 75px"
             alt="Logo"
         /></a>
 
@@ -99,7 +99,7 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#index.html">Home</a>
             </li>
 
             <li class="nav-item dropdown">
@@ -124,7 +124,7 @@
               <a class="nav-link" href="#product">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -189,7 +189,7 @@
     <section id="content">
       <!-- Our Clients start-->
 
-      <div id="clients" class="container-fluid p-4 bg-primary text-white">
+      <div id="clients" class="container-fluid p-4 text-white">
         <h1 class="text-center">Our Clients</h1>
         <p class="text-center">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
@@ -198,7 +198,7 @@
           accusantium?
         </p>
         <p></p>
-        <div class="row mt-3 p-4">
+        <div class="row mt-5 mb-3 p-4">
           <div class="col-md-3">
             <img class="img-fluid" src="Images/Clients/1.png" alt="" />
           </div>
@@ -219,8 +219,8 @@
       <!-- Products start-->
 
       <div id="product" class="container-fluid p-4">
-        <h1 class="text-center">Products</h1>
-        <div class="row mt-5 product-row">
+        <h1 class="text-center prod-header">Our Products</h1>
+        <div class="row mt-5 mb-5 product-row">
           <div class="col-md-2 shadow">
             <address class="p-2">
               <img
@@ -318,8 +318,8 @@
                 src="Images/Products/6.jpeg"
                 alt=""
               /><br />
-              <b>Freeze</b>
-              <p><del>Rs.39500</del> Rs.3000</p>
+              <b>Smart Watch</b>
+              <p><del>Rs.9500</del> Rs.35</p>
               <p>
                 <span class="bi bi-star"></span>
                 <span class="bi bi-star"></span>
@@ -333,6 +333,66 @@
       </div>
 
       <!-- Products end-->
+
+      <!-- Contact start-->
+
+      <div id="contact">
+        <div class="container-fluid p-4">
+          <h1 class="text-center cont-header">Contact us</h1>
+          <p class="text-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            commodi eum ut corrupti reiciendis magnam?
+          </p>
+          <div class="row justify-content-center contact-row">
+            <div class="col-md-4">
+              <div class="input-group">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="name"
+                  placeholder="Your Name *"
+                  required
+                />
+              </div>
+              <div class="input-group mt-4">
+                <input
+                  class="form-control"
+                  type="text"
+                  name="email"
+                  placeholder="Your Email ID *"
+                  required
+                />
+              </div>
+              <div class="input-group mt-4">
+                <input
+                  class="form-control"
+                  type="tel"
+                  name="phone"
+                  placeholder="Your contact no. *"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Message"
+                  id="message"
+                  style="height: 100px"
+                ></textarea>
+                <label>Message (Optional)</label>
+              </div>
+            </div>
+
+            <div class="btn-contact">
+              <a class="button" type="button" href="#">Submit</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact end-->
     </section>
 
     <!-- Content section end -->
@@ -340,12 +400,12 @@
     <!-- Footer section start -->
 
     <footer id="footer">
-      <div class="container-fluid bg-primary p-4">
+      <div class="container-fluid p-4">
         <div class="row">
           <div class="col-md-12">
-            <h4 class="text-center text-white">
-              Copyright &copy; XYZ.com 2023-2024
-            </h4>
+            <h5 class="text-center text-white">
+              Copyright &copy; XYZ.com 2023-2024 All right reserved.
+            </h5>
           </div>
         </div>
       </div>
